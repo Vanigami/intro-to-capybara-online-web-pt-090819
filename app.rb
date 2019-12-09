@@ -1,7 +1,5 @@
 class Application < Sinatra::Base
-  et '/' do
+  get '/' do
     erb :index
   end
-end
-
 end
